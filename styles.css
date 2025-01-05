@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+header {
+    margin: 46px 32px 130px 32px;
+}
+
+.conteiner-img {
+    display: inline-block;
+}
+
+.conteiner-texto {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+img {
+    margin-left: 121px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 42px;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: none;
+    margin-left: 32px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    width: 582px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4B505A;
+    margin: 47px 0px;
+}
+
+.learn-more {
+    width: 112px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px) {
+
+    .conteiner-img {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        margin-top: 360px;
+        width: 100vw;
+    }
+
+    .conteiner-texto {
+        margin: 0;
+        display: block;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        font-size: 12px;
+        margin: 17px 80%;
+        display: block;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        width: 278px;
+        margin: 40px 70px;
+        text-align: center;
+    }
+
+    p {
+        width: auto;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 29px 43px;
+        text-align: center;
+    }
+
+    .learn-more {
+        text-align: center;
+        margin: 26px 155px;
+
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+        margin: 30px 51px 20px 51px;
+    }
+
+
+}
